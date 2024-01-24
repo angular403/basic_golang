@@ -13,7 +13,8 @@ func main() {
 	fmt.Println(names[1])
 	fmt.Println(names[2])
 
-	var values = [...]int{90, 80, 99, 200, 300, 400}
+	var values = [...]int{90, 80, 99,
+		200, 300, 400}
 	fmt.Println(len(values))
 
 }
